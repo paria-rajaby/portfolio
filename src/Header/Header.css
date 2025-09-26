@@ -14,11 +14,14 @@
     font-weight: 400;
     font-size: 20px;
 }
-.navbar-wrapper_right ul li{
+.navbar-wrapper_right ul li a{
     transition: all 200ms ease-in;
 }
-.navbar-wrapper_right ul li:hover{
-   color: var(--secondary-color);
+.navbar-wrapper_right ul li a:hover{
+   /* color: var(--secondary-color); */
+   background-color: color-mix(in srgb, var(--secondary-color) 50%, white);
+   padding: 5px;
+   border-radius: 20px;
 }
 .header-wrapper_introduction{
     display: flex;

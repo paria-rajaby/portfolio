@@ -1,0 +1,25 @@
+.contactme-wrapper{
+    margin-top: 40px;
+}
+.contactme-wrapper_title{
+    text-align: center;
+}
+.contactme-wrapper_text{
+    text-align: center;
+    line-height: 2;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px 0px var(--secondary-color);
+}
+.contactme-wrapper_conections__wrapper{
+    text-align: start;
+}
+.contactme-wrapper_conections__wrapper div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contactme-wrapper_conections__wrapper div svg{
+    width: 20px;
+    height: 20px;
+}

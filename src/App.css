@@ -1,38 +1,54 @@
-.App {
+:root{
+  --primary-color : #E3DAC9; 
+  --secondary-color : #926644; 
+  --boxs-color : #DAC8AE
+}
+body{
+  background-color: var(--primary-color);
+  font-family:  "Poppins", sans-serif;
+}
+svg{
+  width: 40px;
+  height: 40px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.line{
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin: 50px auto;
+  background-color: var(--secondary-color);
+  opacity: 20%;
+}
+.section{
+  margin-top: 40px;
+}
+.titles{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .grid-display{
+      grid-template-columns: repeat(2,1fr);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 480px) {
+  .grid-display{
+      grid-template-columns: repeat(1,1fr);
   }
 }

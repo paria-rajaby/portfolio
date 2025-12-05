@@ -9,37 +9,37 @@ import "./App.css";
 function App() {
   const allProjects = [
     {
-      img: "/images/proj1.png",
+      img: "images/proj1.png",
       address: "https://paria-rajaby.github.io/glassess-shop/",
       link: "GLASSES SHOP",
       desc: "A simple frontend e-commerce project for browsing and buying glasses Build with HTML, CSS and Vanilla JavaScript.Product data comes from a JSON file and app state (cart) is stored in LocalStorage.No backend required.",
     },
     {
-      img: "/images/proj2.png",
+      img: "images/proj2.png",
       address: "https://paria-rajaby.github.io/todolist/",
       link: "TODO LIST",
       desc: "This web app is a modern todolist that helps you organize your tasks efficiently. It allows you add , delete and mark tasks as completed. All your tasks are saved in the browser using local storage , so you wont lose any data.",
     },
     {
-      img: "/images/proj3.png",
+      img: "images/proj3.png",
       address: "https://paria-rajaby.github.io/weather-app/",
       link: "WEATHER APP",
       desc: "A simple and responsive weather application built with HTML , TAILWIND and JAVASCRIPT.This app allows users to search for any and get real-time weather data such as temperature, humidity, wind speed and weather condition.",
     },
     {
-      img: "/images/proj4.png",
+      img: "images/proj4.png",
       address: "https://paria-rajaby.github.io/CMS/",
       link: "CMS",
       desc: "A clean and simple project management system build with HTML,TAILWIND,JAVASCRIPT",
     },
     {
-      img: "/images/proj5.png",
+      img: "images/proj5.png",
       address: "https://paria-rajaby.github.io/quiz-app",
       link: "QUIZ APP",
       desc: "A simple and interactive quiz application build with HTML , CSS(TAILWIND) and JAVASCRIPT. Users can answer questions and see their final score.",
     },
     {
-      img: "/images/proj6.png",
+      img: "images/proj6.png",
       address: "https://paria-rajaby.github.io/coffee-shop/",
       link: "LANDING COFFEE SHOP",
       desc: "A modern and fully responsive coffee landing page built with HTML, CSS, Tailwind, and JavaScript.This project focuses on clean UI, smooth interactions, and an elegant layout designed to showcase a coffee brand.I created the entire page from scratch, including the layout, styling, responsive design, and interactive elements.",

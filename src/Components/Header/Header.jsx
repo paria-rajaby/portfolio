@@ -25,7 +25,7 @@ const Header = () => {
         <div className="header-wrapper_introduction">
           <img
             className="header-wrapper_introduction__img"
-            src="/images/IMG_9432.JPG"
+            src="images/IMG_9432.JPG"
             alt="my image"
           />
           <span className="header-wrapper_introduction_text">

@@ -1,0 +1,70 @@
+:root{
+  --primary-color : #E3DAC9; 
+  --secondary-color : #926644; 
+  --boxs-color : #DAC8AE
+}
+body{
+  background-color: var(--primary-color);
+  font-family:  "Poppins", sans-serif;
+}
+svg{
+  width: 40px;
+  height: 40px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.line{
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin: 50px auto;
+  background-color: var(--secondary-color);
+  opacity: 20%;
+}
+.section{
+  margin-top: 40px;
+}
+.titles{
+  text-align: center;
+}
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.more-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+   padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #E3DAC9;
+}
+.more-projects a{
+  color: var(--primary-color);
+}
+.more-projects a:hover{
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .grid-display{
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width: 480px) {
+  .grid-display{
+      grid-template-columns: repeat(1,1fr);
+  }
+}

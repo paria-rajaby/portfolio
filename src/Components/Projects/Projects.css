@@ -1,0 +1,26 @@
+.projects-wrapper_boxs__details{
+    background-color: var(--boxs-color);
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 200ms ease-in;
+}
+.projects-wrapper_boxs__details:hover{
+    transform: translateY(-10px);
+    background-color: var(--secondary-color);
+ }
+.projects-wrapper_boxs__details:hover .projects-wrapper_boxs__details-link{
+    color: var(--primary-color);
+ }
+.projects-wrapper_boxs__details-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.projects-wrapper_boxs__details-link{
+    margin-top: 15px;
+    display: block;
+    text-decoration: underline;
+}
+.projects-wrapper_boxs__details-desc{
+    line-height: 1.4;
+}

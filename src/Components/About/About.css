@@ -1,0 +1,13 @@
+.aboutme-wrapper{
+    margin-top: 40px;
+}
+.aboutme-wrapper_title{
+    text-align: center;
+}
+.aboutme-wrapper_text{
+    text-align: center;
+    line-height: 2;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px 0px  var(--secondary-color);
+}

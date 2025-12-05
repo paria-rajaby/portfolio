@@ -1,0 +1,25 @@
+.servic-wrapper{
+    margin-top: 40px;
+}
+.servic-wrapper_title{
+    text-align: center;
+}
+.servic-wrapper_boxs{
+    margin-top: 40px;
+}
+.servic-wrapper_boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.servic-wrapper_boxs__details{
+    background-color: var(--boxs-color);
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 200ms ease-in;
+}
+.servic-wrapper_boxs__details:hover{
+   transform: translateY(-10px);
+   background-color: var(--secondary-color);
+}
